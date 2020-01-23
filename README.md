@@ -1,2 +1,0 @@
-# Community-Garden
-hshsak

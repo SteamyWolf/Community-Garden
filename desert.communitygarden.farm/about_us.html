@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+	<head lang="en">
+		<title>Desert Community Garden</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=320">
+		<meta name="viewport" content="initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="fb_admins_meta_tag" content="">
+		<meta http-equiv="X-Wix-Renderer-Server" content="app16.tam">
+		<link rel="wix icon" href="http://www.communitygarden.farm/images/logo.png" type="image/logo.png">
+		<style>
+body {
+	margin: 0px;
+	height: 1250px;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:980px) {
+	#pagewarp {
+		width: 96%;
+	}
+	#content {
+		width: 66%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+}
+@media screen and (max-width:700px) {
+	#pagewarp {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+}
+@media screen and (max-width:480px) {
+	#pagewarp {
+		width: 96%;
+	}
+	#sidebar {
+		display: none;
+	}
+}
+#header {
+	background-color: rgba(227, 233, 188, 1);
+	height:200px;
+	width: 1349px;
+	padding-top:2px;
+}
+.font6 {
+	font: normal normal bold 18px/1.4em 'open sans',sans-serif;
+	color: #515050;
+	margin-top:0px;
+	padding-right: 100px;
+	margin-left: 150px;
+	position:relative;
+}
+.menusosmed {
+	list-style: none;
+}
+.mainmenu {
+	list-style: none;
+	margin-top: 40px;
+}
+.menusosmed li {
+	display: table-cell;
+	margin-top: -43px;
+	float: right;
+	padding-right: 10px;
+}
+.menusosmed1 li {
+	display: table-cell;
+	margin-top: 0px;
+	padding-right: 10px;
+}
+.mainmenu li {
+	display: table-cell;
+	padding-right: 50px;
+	float: left;
+	margin-top: 30px;
+}
+.lastli {
+	margin-right: 160px;
+}
+#bg2 {
+	margin-left: 180px;
+	margin-top: -40px;
+	position: absolute;
+}
+#bg3 {
+	margin-top: -35px;
+	margin-left: 230px;
+	
+}
+.ecg1 {
+	color: rgba(142,199,44,1);
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: normal normal normal 36px/1.4em 'Open Sans',sans-serif;
+}
+.ecg2 {
+	color:#094C09;
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: normal normal normal 36px/1.4em 'Open Sans',sans-serif;
+}
+#bg4 {
+	margin-left: 365px;
+	margin-top: -10px;
+}
+.ecg3 {
+	color:#094C09;
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: normal normal normal 36px/1.4em 'Open Sans',sans-serif;
+}
+.ecg4 {
+	color: rgba(142,199,44,1);
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: normal normal normal 36px/1.4em 'Open Sans',sans-serif;
+}
+#realmenu {
+	margin-left: 560px;
+	margin-top: -80px;
+	display: block;
+    background: transparent;
+}
+.menu {
+	display: block;
+}
+.menu li {
+	display: inline-block;
+    position: relative;
+    z-index: 0;
+    border-width: -50px;
+    
+
+}
+.menu li a {
+	text-decoration: none;
+	color: #282828;
+	font-size: 15px;
+	font-family: "Roboto condensed",Arial;
+	font-weight: 550;
+    padding: 20px 15px;
+    display: block;
+    transition: all 0.2s ease-in-out 0s;
+}
+.menu li a:hover,.menu li:hover>a {
+    color: #fff;
+    background: transparent;
+   	padding: -10px;
+    
+}
+.menu ul {
+    visibility: hidden;
+    opacity: 0;
+    margin: 0;
+    padding: 0px;
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    background: rgba(142,199,44,1);
+    z-index: 99;
+    transform: translate(0,0px);
+    transition: all 0.2s ease-out;
+}
+.enu ul:after {
+    bottom: 100%;
+    left: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(142,199,44,1);
+    border-bottom-color: #fff;
+    border-width: 6px;
+    margin-left: -6px;
+}
+.menu ul li {
+    display: block;
+    float: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li a {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    color: #797979;
+    background: #fff;
+}
+.menu ul li a:hover,.menu ul li:hover>a {
+    background: rgba(142,199,44,1);
+    color: #fff;
+}
+.menu li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0,0);
+}
+.menu li a:hover {
+	text-decoration: none;
+	color: rgba(142,199,44,1);
+	font-size: 15px;
+	font-family: "Roboto condensed",Arial;
+}
+.menu li p {
+	font-family: sans-serif;
+}
+#float1 {
+	width: 1349px;
+	height: 480px;
+	background-color: #daceb3;
+	margin-top: 1px;
+}
+.picture {
+	height: 100px;
+	margin-left: 200px;
+}
+.rectangle h1 {
+	background-color: blue;
+	margin-left: 400px;
+}
+#float2 {
+	width: 1349px;
+	height:250px;
+	background-color:#ededed;
+}
+#float3 {
+	background-color:#ffffff;
+	width: 1349px;
+	height: 280px;
+}
+#wrapper {
+	background-color:#404040;
+	width: 1349px;
+	height: 47px;
+	position: absolute;
+	display: inline-block;
+}
+
+		</style>
+	</head>
+	<body>
+	<div>
+		<div id = header>
+			<div class=bg1>
+				<ul class=menusosmed>
+					<h6 class =font6>info@CommmunityGarden.farm | 801.930.0675 | #DesertCommunityGardens</h6>
+					<li class=lastli><a class=linklinkedin href="https://www.linkedin.com/pub/earth-community-garden/8a/747/5a3"><img alt="" src="https://static.wixstatic.com/media/22fa9ffe67ef4289a150e75a66ee4933.png/v1/fill/w_42,h_42,al_c,usm_0.66_1.00_0.01/22fa9ffe67ef4289a150e75a66ee4933.png" style="width:42px;height:42px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$comp-ifc7qkve.0.4.0.0.$image"></a></li>
+					<li><a class=linkig href="https://www.instagram.com/earthcommunitygarden/"><img alt="" src="https://static.wixstatic.com/media/530d907aaf7648c89c79be7eea724d9c.png/v1/fill/w_42,h_42,al_c,usm_0.66_1.00_0.01/530d907aaf7648c89c79be7eea724d9c.png" style="width:42px;height:42px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$comp-ifc7qkve.0.3.0.0.$image"></a></li>
+				
+					<li><a class=linktwitter href="https://twitter.com/EarthCommGarden"><img alt="" src="https://static.wixstatic.com/media/7177d158c36d432b93f51e54f80e2f3c.png/v1/fill/w_42,h_42,al_c,usm_0.66_1.00_0.01/7177d158c36d432b93f51e54f80e2f3c.png" style="width:42px;height:42px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$comp-ifc7qkve.0.1.0.0.$image"></a></li>
+					<li><a class=linkfb href="https://web.facebook.com/holladay.gardens?_rdr"><img alt="" src="https://static.wixstatic.com/media/d3470ec8ca26475da4b228f0199b5d3d.png/v1/fill/w_42,h_42,al_c,usm_0.66_1.00_0.01/d3470ec8ca26475da4b228f0199b5d3d.png" style="width:42px;height:42px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$comp-ifc7qkve.0.0.0.0.$image"></a></li>
+				</ul>
+			</div>
+			<div id=bg2>
+					<span class=ecg0 style="margin-top: -10px;"><a href="http://communitygarden.farm"><img alt="" src="https://static.wixstatic.com/media/18c26a_cc3dfa6a93c04a3a801f010568c53f08.png/v1/fill/w_50,h_54,al_c,lg_1/18c26a_cc3dfa6a93c04a3a801f010568c53f08.png" style="width: 50px; height: 57px; object-fit: contain;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$hzv7oghv.0.0.$image"></a></span>
+			</div>
+			<div id=bg3>
+					<h2><a class=ecg1 href="http://desert.communitygarden.farm"><h2>desert</a><a class=ecg2 href="http://desert.communitygarden.farm">community</h2></a></h6>
+			</div>
+			<div id=bg4><a class=ecg3 href="http://desert.communitygarden.farm"><h2>garden</a><a class=ecg4 href="http://desert.communitygarden.farm">dotfarm</a></h2></div>
+			<div id = realmenu style="margin-left: 620px;">
+			    <br>
+				<ul class=menu>
+					<li><strong><a class=linkabout href="about_us.html"><p>About Us</p></a></strong></li>
+					<li><strong><a class=linkourgardens href="http://google.com/"><p>Our Gardens</p></a></strong>
+						<ul class="sub-menu">
+							<li><a href="http://foodpantry.communitygarden.farm">FOOD BANK PANTRY</a></li>
+							<li><a href="http://castohome.communitygarden.farm">Casto Homes Garden</a></li>
+							<li><a href="http://desert.communitygarden.farm">Desert Community Garden</a></li>
+							<li><a href="http://earth.communitygarden.farm">Earth Community Garden</a></li>
+							<li><a href="http://farmersmarket.communitygarden.farm">Farmers Market Garden</a></li>
+							<li><a href="http://holladay.communitygarden.farm">Holladay Community Garden</a></li> 
+							<li><a href="http://newhope.communitygarden.farm">New Hope Community Garden</a></li>
+							<li><a href="http://provo.communitygarden.farm">Provo Community Garden</a></li>    
+						</ul>
+					</li>
+					<li><strong><a class=linkhelp href="http://google.com/"><p>Help / Volunteer</p></a></strong>
+						<ul class="sub-menu">
+							<li><a href="https://forms.gle/549eYd85E7Fnyhe19" target='_blank'>Labor / Work Donations</a></li>
+													<li><a href="https://forms.gle/549eYd85E7Fnyhe19" target='_blank'>Resources / Material Donations</a></li>
+													<li><a href="https://www.paypal.com/fundraiser/112574644767835624/charity/144467"  target='_blank'>Pledge / Monetary Donations</a></li>
+													<li><a href="https://forms.gle/549eYd85E7Fnyhe19" target='_blank'>Internship / Teach a Class</a></li>    
+						</ul>
+					</li>
+					<li><strong><a class=link1contact href="index.html"><p>Contact Us</p></a></strong></li>
+				</ul>
+			</div>
+				
+		</div>
+
+		<div id=float1>
+			<div class=picture><img alt="" src="https://static.wixstatic.com/media/18c26a_7a8247d4f090435e93558bc619d5a602.jpg/v1/fill/w_972,h_414,al_c,q_85,usm_0.66_1.00_0.01/18c26a_7a8247d4f090435e93558bc619d5a602.jpg" style="border: solid 3px #fff; margin-top:-60px;"</div>
+				<div style="border: solid 1px #eceff5; background: #fff; padding: 15px; margin-top: -350px;margin-left:20px;position: relative; font-size: 15px;width: 400px;opacity: 0.8"><h1 style="padding-left: 12px;padding-bottom:-30px;padding-right: 50px;color:#094C09;"><strong>About the "Garden"</strong></h1><p style="text-align: justify;padding: 12px;padding-right: 50px;font-size: 
+				16px;color: #515050;">"We sustain our organization by the donated services &#38; funds offered by the community. We have many civic services that we provide to our communities including; fruit picking, gardeners' markets, and free classes/workshops. We seek to work closely with ALL cities and organization to create similar groups within their communities. We love giving ideas and support to such groups, wherever they may be."<br><br> - WDW (director)</p></div>
+			</div>
+			<div style="width: 910px;margin-top: 300px;margin-left: 220px;">
+				<h1 style="color:#094C09;font-size:25px;">Why "Earth Community Garden"?</h1>
+				<p style="font-size: 17px;color:#515050;"><strong>What's in a name?</strong></p>
+				<p style="text-align: justify;font-size: 16px;color: #515050">We started off as the "Holladay Community Garden" because all three gardens were located in the City of Holladay (Casto Home Gardens, Patch Garden Project, Farmers Market Garden). When we "branched" out of Holladay, the original name did not seem as inclusive. So we thought about calling us "Utah Community Gardens" but we figured why stop there? "Earth" seemed to encompass it all! But now with water possibly being discovered on Mars, who knows . . .</p>
+				<p style="text-align: justify;font-size: 16px;color: #515050">So now we are Earth Community GARDEN, not GardenS, because we all live in one big garden. The word "gardens" seems to divide rather than unite. Each of us live on this big garden called Earth and we must all do our part to make sure our portion of the garden is cared for and tended. Whether it is; your own yard, the area outside your apartment, your business or the future site of one of these, we should all feel the need to beautify our surroundings in a responsible and sustainable way.</p>
+			</div>
+		</div>
+
+		<div id=float2>
+		
+		</div>
+
+		<div id=float3>
+				<div class=part1 style="margin-left: 150px;margin-top: 30px;"><a href="http://communitygarden.farm" style="text-decoration: none;">
+			<img alt="" src="https://static.wixstatic.com/media/18c26a_059951924bd94411b5c28f22ea19a016.png/v1/fill/w_35,h_36,al_c,lg_1/18c26a_059951924bd94411b5c28f22ea19a016.png">
+			<h1 style="color:#094C09;font-size:23px; margin-left: 35px;margin-top: -33px;"><strong>a 501c3 nonprofit</strong></h1></a>
+			<p style="color:#515050;font-size:20px;margin-left: 37px;font:normal normal normal 12px/1.4em Verdana,geneva,sans-serif;line-height: 1.5em;">IRS EIN: 26-0853465</p>
+			<p style="color:#515050;font-size:20px;margin-left: 37px;margin-top:20px;font:normal normal normal 12px/1.4em Verdana,geneva,sans-serif;">State of Utah: 12830519-002-STC</p>
+			</div>
+			<div class=part2>
+				<h1 style="color:#515050;font-size:18px; margin-left: 450px;margin-top: -106px;"><strong>Get social with the Desert!</strong></h1>
+				<ul class=menusosmed1 style="margin-left: 420px;">
+					<li><a class=linkfb href="https://www.facebook.com/DesertCommunityGarden/" target='_blank'><img alt="" src="https://static.wixstatic.com/media/6c710e2ad2a7fed7d72be87bc5e7f7f8.png/v1/fill/w_38,h_38,al_c,usm_0.66_1.00_0.01/6c710e2ad2a7fed7d72be87bc5e7f7f8.png" style="width:42px;height:42px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$comp-ifc7qkve.0.0.0.0.$image"></a></li>
+					<li><a class=linktwitter href="https://twitter.com/EarthCommGarden" target='_blank'><img alt="" src="https://static.wixstatic.com/media/50d1c1ebf8315c89781859112ee73126.png/v1/fill/w_38,h_38,al_c,usm_0.66_1.00_0.01/50d1c1ebf8315c89781859112ee73126.png" style="width:42px;height:42px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$comp-ifc7qkve.0.1.0.0.$image"></a></li>
+					
+					<li><a class=linkig href="https://www.instagram.com/earthcommunitygarden/" target='_blank'><img alt="" src="https://static.wixstatic.com/media/15501a32e0b449b48fa639fd8e6935aa.png/v1/fill/w_38,h_38,al_c,usm_0.66_1.00_0.01/15501a32e0b449b48fa639fd8e6935aa.png" style="width:42px;height:42px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$comp-ifc7qkve.0.3.0.0.$image"></a></li>
+					<li><a class=linklinkedin href="https://www.linkedin.com/pub/earth-community-garden/8a/747/5a3" target='_blank'><img alt="" src="https://static.wixstatic.com/media/f3e3e6a9bc28a1516a859c7ff8b1669f.png/v1/fill/w_38,h_38,al_c,usm_0.66_1.00_0.01/f3e3e6a9bc28a1516a859c7ff8b1669f.png" style="width:42px;height:42px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$comp-ifc7qkve.0.4.0.0.$image"></a></li>
+				</ul>
+			</div>
+			<div class=part3>
+				<h1 style="color:#515050;font-size:18px; margin-left: 750px;margin-top: -86px;"><strong>Share your thoughts with this garden!</strong></h1>
+				<p style="color:#515050;font:normal normal normal 14px/1.8em Verdana,geneva,sans-serif;line-height: 1.5em;margin-left: 755px;margin-top: 10px;">Phone Number: 801.930.0675 call/text</p>
+				<p style="color:#515050;margin-left: 755px;margin-top:15px;font:normal normal normal 14px/1.4em Verdana,geneva,sans-serif;">Email Address: info@communitygarden.farm</p>
+				<p style="color:#515050;margin-left: 755px;margin-top:15px;font:normal normal normal 14px/1.4em Verdana,geneva,sans-serif;">Physical Address: 585 Garden Valley Ranchos, Modena, Utah 84714</p>
+				<p style="color:#515050;margin-left: 755px;margin-top:15px;font:normal normal normal 14px/1.4em Verdana,geneva,sans-serif;">Mailing Address: PO Box 220101, Centerfield, Utah 84622</p>
+				<p style="color:#515050;margin-left: 755px;margin-top:15px;font:normal normal normal 13px/1.4em Verdana,geneva,sans-serif;">2007-2020 by Earth Community Garden, a 501c3<br>nonprofit, previously Holladay Community Garden</p>
+			</div>
+		</div>
+		
+
+
+
+	</div>
+	</body>
+</html>

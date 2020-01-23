@@ -1,0 +1,131 @@
+.slider{
+	margin-top:30px;
+	margin-bottom:100px;
+	border:0px solid #fff;
+	
+}
+
+
+#coin-slider{
+	overflow:hidden;
+	background:url(../images/slider/loader.gif) 50% 50% no-repeat;
+	width:30px;
+	margin:0 auto;
+	position:relative;
+}
+#coin-slider img{
+	display:none;
+	
+}
+#coin-slider img.first{
+	display:block;
+}
+.coin-slider{
+	
+	position:relative;
+	margin:0px auto;
+	width:100%;
+	overflow:hidden;
+	height:500px;
+}
+
+
+.coin-slider a{
+	text-decoration:none;
+	display:inline-block;
+	outline:none;
+	border:none;
+}
+.controls {
+	height:500px;
+	width:100%;
+	background:url(../images/slider/bg-banner-bot.png) no-repeat;
+	background-position:right bottom;
+	background-size:100% 30%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:20;
+}
+.cs-buttons{
+	font-size:0px;
+	line-height:0;
+	position:absolute;
+	top:20px;
+	right:21px;
+	z-index:22;
+}
+
+.cs-buttons a{
+	margin-left:2px;
+	height:21px;
+	width:21px;
+	background:url(../images/slider/bg-pagination.png) 0 0 no-repeat;
+	display:inline-block;
+	font-size:12px;
+	line-height:21px;
+	font-weight:bold;
+	text-align:center;
+	color:#fcfcfd;
+	cursor:pointer;
+
+}
+.cs-buttons a:hover, .cs-buttons a.cs-active{
+	background-position:left bottom;
+}
+.cs-prev, .cs-next{
+	display:none;
+}
+
+#coin-slider .banner {
+    height: 100%;
+    right: 1074px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 90%;
+    z-index: 19;
+}
+.banner-bot{
+	font-size:13pt;
+	line-height:17px;
+	color:#000;
+}
+.text-1 {
+	display:block;
+	color: #fff;
+	text-shadow:0px 1px 2px #000;
+	font-size:40pt;
+	line-height:1.2em;
+	letter-spacing:-2px;
+	
+}
+.text-2 {
+	display:block;
+	color: #fff;
+	text-shadow:0px 1px 2px #000;
+	font-size:20pt;
+	line-height:1.2em;
+	margin-top:-9px;
+	padding:0 0 0 0px;
+}
+
+#coin-slider .banner:first-child {
+    z-index: 20;
+}
+#coin-slider .banner strong {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+	font-weight:normal;
+    
+}
+#coin-slider .banner strong:first-child + strong {
+	z-index: 21;
+	font-weight:normal;
+}
+.cs-coin-slider,#coin-slider{
+	background-size:	100% 100% !important;
+	width:	100% !important;
+	height:	500px !important;
+}

@@ -1,4 +1,0 @@
-# ---- Make pages render without their extension in the url
-Options +MultiViews
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]

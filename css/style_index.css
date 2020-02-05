@@ -17,40 +17,55 @@
 	max-width:700px;
 	width:100%;
 	min-width:550px;
-	border:0px solid red;
 	margin-left:auto;
 	margin-right:auto;
 }
+#title{
+	position: relative;
+	text-decoration: none;
+	text-align: left;
+	height: 70px;
+	width: 100%;
+	float: left;
+}
+#title h1{
+	color:rgb(25, 197, 25);
+	padding-top: 10px;
+}
 .topbanner{
-	border:0px solid red;
 	background:#fff;
 	position:fixed;
 	top:0px;
 	z-index:100;
-	width:100%;
+	width:80%;
+	height: 70px;
 	box-shadow: 0px 10px 14px -15px #000000;
 }
 .topbanner #logo{
-	border:0px solid red;
-	float:auto;
-	text-align:center;
 	margin-top:0px;
 	margin-left:0px;
-	color:#094C09;
+	margin-right: 10px;
 	font-size:28pt;
 	font-family:'sans',sans-serif;
 	font-weight:bold;
 }
+.topbanner a:hover{
+	text-decoration: none;
+}
 .topbanner #logo img{
-	width:50px;
+	width:100px;
+	height: 70px;
 }
-.topbanner #logo span{
-	color:#8EC72C;
-}
-#top_button{
-	border:0px solid red;
-	float:auto;
-	text-align:center;
+nav{
+	position: relative;
+	background:#fff;
+	top:75px;
+	z-index:100;
+	box-shadow: 0px 10px 14px -15px #000000;
+	width:100%;
+	min-width:550px;
+	margin-left:auto;
+	margin-right:auto;
 }
 .bgcolor{
 	background:#fff;
@@ -399,7 +414,7 @@ p{
 	font-weight:bold;
 }
 .topbanner #logo img{
-	width:50px;
+	width:100px;
 }
 .topbanner #logo span{
 	color:#8EC72C;
@@ -618,13 +633,6 @@ p{
 	padding-right:5px;
 	width:98%;
 }
-
-
-
-
-
-
-
 
 .footer_b{
 	background: url('../images/footers.png') center no-repeat;

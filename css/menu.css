@@ -1,5 +1,5 @@
 /*Impotant CSS Keep*/
-/* main menu styles */
+/*Desktop Menu / Nav*/
 #menu {
     font-family:Montreal-Xlight, Arial, Tahoma, sans-serif;
     padding-top:0px;
@@ -9,9 +9,6 @@
     display:flex;
 	margin: 0 auto;
 	width: 80%;
-}
-#menu:hover{
-
 }
 @media (min-width:0px){
 #menu li {
@@ -55,12 +52,10 @@
 	font-family: 'arial', Tahoma, sans-serif;
     font-size:12pt;
 }
-
 /* selected menu element*/
 #menu .current a, #menu li:hover > a {
     color:#fff;
 }
-
 /* sublevels */
 #menu ul li:hover a, #menu li:hover li a {
     background:none;
@@ -71,16 +66,8 @@
 #menu ul li a:hover {
     background:rgb(25, 197, 25);
     color:#fff;
-    padding-left:30px;
+    padding-left:30px;  
 }
-
-#menu ul li:first-child > a {
-    
-}
-#menu ul li:last-child > a {
-    
-}
-
 /* drop down */
 #menu li:hover > ul {
     opacity:1;
@@ -136,4 +123,19 @@
 	-o-transition: background 0.6s ease, padding-left 0.6s ease;
 	transition: background 0.6s ease, padding-left 0.6s ease;	
 }
+/*End of Desktop Menu / Nav*/
+@media (max-width:1030px){
+    #menu a {
+        font-weight:bold;
+        color:rgb(25, 197, 25);
+        text-decoration:none;
+        display:block;
+        font-family: 'arial', Tahoma, sans-serif;
+        font-size:10pt;
+    }
+    #top_button{
+        display: none;
+    }
+}
+/*Tablet Menu / Nav*/
 /*End of Impotant CSS Keep*/

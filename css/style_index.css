@@ -1,97 +1,97 @@
 /*Impotant CSS Keep*/
 @font-face {
-	font-family: 'hurtmoldregular';
-	src: url('../fonts/hurtmoldregular.eot');
-	src: local('hurtmoldregular'), 
-		url('../fonts/hurtmoldregular.woff') format('woff'), 
-		url('../fonts/hurtmoldregular.ttf') format('truetype');
+  font-family: "hurtmoldregular";
+  src: url("../fonts/hurtmoldregular.eot");
+  src: local("hurtmoldregular"),
+    url("../fonts/hurtmoldregular.woff") format("woff"),
+    url("../fonts/hurtmoldregular.ttf") format("truetype");
 }
 @font-face {
-	font-family: 'Montreal-Xlight';
-	src: url('../fonts/Montreal-Xlight.ttf');
-	src: local('Montreal-Xlight'), 
-		url('../fonts/Montreal-Xlight.ttf') format('woff'), 
-		url('../fonts/Montreal-Xlight.ttf') format('truetype');
+  font-family: "Montreal-Xlight";
+  src: url("../fonts/Montreal-Xlight.ttf");
+  src: local("Montreal-Xlight"),
+    url("../fonts/Montreal-Xlight.ttf") format("woff"),
+    url("../fonts/Montreal-Xlight.ttf") format("truetype");
 }
 /*Desktop CSS*/
-@media (min-width:0px){
-html{
-	height: 100%;
-}
-body{
-	position: relative;
-	margin: 0;
-	padding-bottom: 6rem;
-	min-height: 100%;
-}
-#title{
-	position: relative;
-	text-decoration: none;
-	text-align: left;
-	height: 70px;
-	width: 100%;
-	float: left;
-}
-#title h1{
-	color:rgb(25, 197, 25);
-	padding-bottom: 10px;
-}
-.topbanner{
-	background:#fff;
-	position:fixed;
-	top:0px;
-	z-index:100;
-	width:80%;
-	height: 72px;
-	box-shadow: 0px 10px 14px -15px #000000;
-}
-.topbanner #logo{
-	margin-top:0px;
-	margin-left:0px;
-	margin-right: 10px;
-	font-size:28pt;
-	font-family:'sans',sans-serif;
-	font-weight:bold;
-}
-.topbanner a:hover{
-	text-decoration: none;
-}
-.topbanner #logo img{
-	width:100px;
-	height: 70px;
-}
-nav{
-	position: relative;
-	background:#fff;
-	top:75px;
-	z-index:99;
-	box-shadow: 0px 10px 14px -15px #000000;
-	width:100%;
-	min-width:550px;
-	margin-left:auto;
-	margin-right:auto;
-}
-.bgcolor{
-	background:#fff;
-}
-.container{
-	position: relative;
-	padding-top: 150px;
-	min-width: 100%;
-	height: 500px;
-}
-#myCarousel{
-	max-height: 800px;
-	width: 100%;
-}
-.item{
-	height: 350px;
-}
-.item img{
-	width: 100%;
-	max-height: 800px;
-}
-/*
+@media (min-width: 0px) {
+  html {
+    height: 100%;
+  }
+  body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+  }
+  #title {
+    position: relative;
+    text-decoration: none;
+    text-align: left;
+    height: 70px;
+    width: 100%;
+    float: left;
+  }
+  #title h1 {
+    color: rgb(25, 197, 25);
+    padding-bottom: 10px;
+  }
+  .topbanner {
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    width: 80%;
+    height: 72px;
+    box-shadow: 0px 10px 14px -15px #000000;
+  }
+  .topbanner #logo {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    font-size: 28pt;
+    font-family: "sans", sans-serif;
+    font-weight: bold;
+  }
+  .topbanner a:hover {
+    text-decoration: none;
+  }
+  .topbanner #logo img {
+    width: 100px;
+    height: 70px;
+  }
+  nav {
+    position: relative;
+    background: #fff;
+    top: 75px;
+    z-index: 99;
+    box-shadow: 0px 10px 14px -15px #000000;
+    width: 100%;
+    min-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bgcolor {
+    background: #fff;
+  }
+  .container {
+    position: relative;
+    padding-top: 150px;
+    min-width: 100%;
+    height: 500px;
+  }
+  #myCarousel {
+    max-height: 800px;
+    width: 100%;
+  }
+  .item {
+    height: 350px;
+  }
+  .item img {
+    width: 100%;
+    max-height: 800px;
+  }
+  /*
 section{
 	width: 100%;
 	height: auto;
@@ -112,260 +112,286 @@ section{
 	width: 45%;
 	height: auto;
 }*/
-.info{
-	width: 80%;
-	margin: 0 auto;
-}
-.myButton {
-	box-shadow:inset 0px 0px 0px 0px #68a54b;
-	background:linear-gradient(to bottom, rgb(25, 197, 25) 5%, #345c22 100%);
-	background-color:#68a54b;
-	border-radius:7px;
-	border:2px solid #68a54b;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:9px 14px;
-	text-decoration:none;
-	display: block;
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #094C09 5%, #345c22 100%);
-	background-color:#68a54b;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-footer{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
- 	width: 100%;
-	height: auto;
-	background-color: #094C09;
-	color: white;
-	text-align: center;
-	font-size: 18px;
-	padding:5px;
-}
-#copyright_text{
-	padding-top: 15px;
-}
-/* Style all font awesome icons */
-.fa {
-	padding: 0px;
-	width: 30px;
-	text-align: center;
-	text-decoration: none;
-}
-#social{
-	display: inline;
-}
-#social a{
-	text-decoration: none;
+  .info {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .myButton {
+    box-shadow: inset 0px 0px 0px 0px #68a54b;
+    background: linear-gradient(to bottom, rgb(25, 197, 25) 5%, #345c22 100%);
+    background-color: #68a54b;
+    border-radius: 7px;
+    border: 2px solid #68a54b;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px 14px;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .myButton:hover {
+    background: linear-gradient(to bottom, #094c09 5%, #345c22 100%);
+    background-color: #68a54b;
+  }
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
+  footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #094c09;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+  }
+  #copyright_text {
+    padding-top: 15px;
+  }
+  /* Style all font awesome icons */
+  .fa {
+    padding: 0px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  #social {
+    display: inline;
+  }
+  #social a {
+    text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.2s;
+    color: black;
+  }
+
+  /* Set a specific color for each brand */
+  /* Facebook */
+  .fa-facebook {
+    background: #094c09;
+    color: rgb(255, 255, 255);
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    background: #094c09;
+    color: rgb(255, 255, 255);
+  }
+
+  /* Instagram */
+  .fa-instagram {
+    background: #094c09;
+    color: rgb(255, 255, 255);
+  }
+  /*End of Desktop CSS*/
+
+  /*Tablet CSS*/
+  @media (max-width: 1220px) {
+    #myCarousel {
+      height: auto;
+      width: 100%;
+    }
+    .item {
+      height: 80%;
+      width: 100%;
+    }
+    .item img {
+      width: 100%;
+      height: 80%;
+    }
+    .container {
+      position: relative;
+      padding-top: 75px;
+      min-width: 100%;
+      height: auto;
+    }
+  }
+  footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #094c09;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+  }
+  #copyright_text {
+    font-size: 13px;
+    line-height: 30px;
+    padding-top: 15px;
+  }
+  /* Style all font awesome icons */
+  .fa {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+  }
+  #social {
+    font-size: 20px;
+    display: inline;
+  }
+  @media (max-width: 700px) {
+    #title {
+      position: relative;
+      text-decoration: none;
+      text-align: left;
+      height: 70px;
+      width: 100%;
+      float: left;
+    }
+    #title h1 {
+      color: rgb(25, 197, 25);
+      padding-top: 10px;
+      font-size: 4.5vw;
+    }
+    .topbanner {
+      background: #fff;
+      position: fixed;
+      top: 0px;
+      z-index: 100;
+      width: 100%;
+      box-shadow: 0px 10px 14px -15px #000000;
+    }
+    .topbanner #logo {
+      float: left;
+      width: 100px;
+      height: 100%;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-left: 10px;
+      font-size: 28pt;
+      font-family: "sans", sans-serif;
+      font-weight: bold;
+    }
+    #info .heading {
+      padding: 10px;
+    }
+  }
+  /*End of Tablet CSS*/
+  /*End of Impotant CSS Keep*/
+
+  .heading {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    font-size: 25pt;
+    font-family: "arial";
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #094c09;
+  }
+  p {
+    font-size: 13pt;
+    font-family: "arial";
+    font-weight: normal;
+    margin: 10px;
+    width: 90%;
+  }
+
+  @media (min-width: 700px) {
+    #main {
+      max-width: 1400px;
+      width: 100%;
+      border: 0px solid red;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .topbanner {
+      border: 0px solid red;
+      background: #fff;
+      position: fixed;
+      top: 0px;
+      z-index: 100;
+      width: 100%;
+      box-shadow: 0px 10px 14px -15px #000000;
+    }
+    .topbanner #logo {
+      border: 0px solid red;
+      float: left;
+      text-align: right;
+      margin-top: 0px;
+      margin-left: 20px;
+      color: #094c09;
+      font-size: 28pt;
+      font-family: "sans", sans-serif;
+      font-weight: bold;
+    }
+    .topbanner #logo img {
+      width: 100px;
+    }
+    .topbanner #logo span {
+      color: #8ec72c;
+    }
+    #top_button {
+      border: 0px solid red;
+      float: right;
+      text-align: left;
+    }
+    .bgcolor {
+      background: #fff;
+    }
+
+    .heading {
+      padding: 15px;
+      margin-top: 10px;
+      font-size: 25pt;
+      font-family: "arial";
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      color: #094c09;
+    }
+    p {
+      font-size: 13pt;
+      font-family: "arial";
+      font-weight: normal;
+      margin: 10px;
+      width: 90%;
+    }
+  }
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-	opacity: 0.2s;
-	color: black;
-}
-	
-/* Set a specific color for each brand */
-/* Facebook */
-.fa-facebook {
-	background: #094C09;
-	color: rgb(255, 255, 255);
-}
-	
-/* Twitter */
-.fa-twitter {
-	background: #094C09;
-	color: rgb(255, 255, 255);
+
+
+/******** Wyatts Coding *******/
+.cardContainer {
+	width: 100%;
+	margin: 50px 0px;
 }
 
-/* Instagram */
-.fa-instagram {
-	background: #094C09;
-	color: rgb(255, 255, 255);
-}
-/*End of Desktop CSS*/
-
-/*Tablet CSS*/
-@media (max-width:1220px){
-	#myCarousel{
-		height: auto;
-		width: 100%;
-	}
-	.item{
-		height: 80%;
-		width: 100%;
-	}
-	.item img{
-		width: 100%;
-		height: 80%;
-	}
-	.container{
-		position: relative;
-		padding-top: 75px;
-		min-width: 100%;
-		height: auto;
-	}
-}
-footer{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
- 	width: 100%;
-  	height: auto;
-	background-color: #094C09;
-	color: white;
-	text-align: center;
-	font-size: 13px;
-}
-#copyright_text{
-	font-size: 13px;
-	line-height: 30px;
-	padding-top: 15px;
-}
-/* Style all font awesome icons */
-.fa {
-	padding: 5px;
-	width: auto;
-	height: auto;
-	text-align: center;
-	text-decoration: none;
-}
-#social{
-	font-size: 20px;
-	display: inline;
-}
-@media (max-width:700px){
-	#title{
-		position: relative;
-		text-decoration: none;
-		text-align: left;
-		height: 70px;
-		width: 100%;
-		float: left;
-	}
-	#title h1{
-		color:rgb(25, 197, 25);
-		padding-top: 10px;
-		font-size: 4.5vw;
-	}
-	.topbanner{
-		background:#fff;
-		position:fixed;
-		top:0px;
-		z-index:100;
-		width:100%;
-		box-shadow: 0px 10px 14px -15px #000000;
-	}
-	.topbanner #logo{
-		float: left;
-		width: 100px;
-		height: 100%;
-		margin-top:0px;
-		margin-left:0px;
-		margin-left: 10px;
-		font-size:28pt;
-		font-family:'sans',sans-serif;
-		font-weight:bold;
-	}
-	#info .heading{
-		padding: 10px;
-	}
-}
-/*End of Tablet CSS*/
-/*End of Impotant CSS Keep*/
-
-.heading{
-	padding-top:15px;
-	padding-bottom:15px;
-	margin-top: 10px;
-	font-size:25pt;
-	font-family:'arial';
-	font-weight:bold;
-	width:100%;
-	text-align:center;
-	color:#094C09;
-}
-p{
-	font-size:13pt;
-	font-family:'arial';
-	font-weight:normal;
-	margin:10px;
-	width:90%;
+.cardRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-content: space-between;
 }
 
-@media (min-width:700px){
-#main{
-	max-width:1400px;
-	width:100%;
-	border:0px solid red;
-	margin-left:auto;
-	margin-right:auto;
+.card {
+	margin: 10px;
 }
-.topbanner{
-	border:0px solid red;
-	background:#fff;
-	position:fixed;
-	top:0px;
-	z-index:100;
-	width:100%;
-	box-shadow: 0px 10px 14px -15px #000000;
+.card-title {
+	font-size: 1.9rem;
 }
-.topbanner #logo{
-	border:0px solid red;
-	float:left;
-	text-align:right;
-	margin-top:0px;
-	margin-left:20px;
-	color:#094C09;
-	font-size:28pt;
-	font-family:'sans',sans-serif;
-	font-weight:bold;
-}
-.topbanner #logo img{
-	width:100px;
-}
-.topbanner #logo span{
-	color:#8EC72C;
-}
-#top_button{
-	border:0px solid red;
-	float:right;
-	text-align:left;
-}
-.bgcolor{
-	background:#fff;
-}
-
-.heading{
-	padding: 15px;
-	margin-top: 10px;
-	font-size:25pt;
-	font-family:'arial';
-	font-weight:bold;
-	width:100%;
-	text-align:center;
-	color:#094C09;
-}
-p{
-	font-size:13pt;
-	font-family:'arial';
-	font-weight:normal;
-	margin:10px;
-	width:90%;
-}
-}
+.card-text {
+	font-size: 1.4rem;
 }

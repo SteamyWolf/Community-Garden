@@ -395,3 +395,6 @@ section{
 .card-text {
 	font-size: 1.4rem;
 }
+.btn-primary {
+	width: 100%;
+}

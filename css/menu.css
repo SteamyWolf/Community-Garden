@@ -23,7 +23,7 @@
 	-o-transition: background 0.6s ease, padding-left 0.6s ease;
 	transition: background 0.6s ease, padding-left 0.6s ease;	
 }
-.navhead{
+.navhead {
     width: 25%;
 }
 }
@@ -124,7 +124,7 @@
 	transition: background 0.6s ease, padding-left 0.6s ease;	
 }
 /*End of Desktop Menu / Nav*/
-@media (max-width:1030px){
+@media (max-width:300px){
     #menu a {
         font-weight:bold;
         color:rgb(25, 197, 25);
